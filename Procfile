@@ -1,1 +1,1 @@
-web: ./bin/Go-Filter-Bot
+worker: ./bin/Go-Filter-Bot
