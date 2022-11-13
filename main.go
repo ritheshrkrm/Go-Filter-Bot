@@ -60,7 +60,7 @@ func main() {
 	dispatcher.AddHandlerToGroup(handlers.NewCallback(callbackquery.Prefix("cbconnect("), plugins.CbConnect), 2)
 	dispatcher.AddHandlerToGroup(handlers.NewCommand("startglobal", plugins.StartGlobal), 2)
 	dispatcher.AddHandlerToGroup(handlers.NewCommand("gfilters", plugins.Gfilters), 2)
-	dispatcher.AddHandlerToGroup(handlers.NewCommand("broadcast", plugins.⚡ 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍), 3)
+	dispatcher.AddHandlerToGroup(handlers.NewCommand("broadcast", plugins. Broadcast), 3)
 	dispatcher.AddHandlerToGroup(handlers.NewCommand("concast", plugins.ConCast), 3)
 	dispatcher.AddHandlerToGroup(handlers.NewCommand("id", plugins.GetId), 3)
 	dispatcher.AddHandlerToGroup(handlers.NewCommand("about", plugins.About), 1)

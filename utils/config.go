@@ -73,7 +73,7 @@ Vɪᴇᴡ ғɪʟᴛᴇʀs :
 	• /connections - 𝗅𝗂𝗌𝗍 𝖺𝗅𝗅 𝗒𝗈𝗎𝗋 𝖼𝗈𝗇𝗇𝖾𝖼𝗍𝗂𝗈𝗇𝗌
 `,
 
-	"⚡ 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍": `
+	"𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍": `
 	𝖳𝗁𝖾 𝖻𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 𝖿𝖾𝖺𝗍𝗎𝗋𝖾 𝖺𝗅𝗅𝗈𝗐𝗌 𝖻𝗈𝗍 𝖺𝖽𝗆𝗂𝗇𝗌 𝗍𝗈 𝖻𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 𝖺 𝗆𝖾𝗌𝗌𝖺𝗀𝖾 𝗍𝗈 𝖺𝗅𝗅 𝗈𝖿 𝗍𝗁𝖾 𝖻𝗈𝗍'𝗌 𝗎𝗌𝖾𝗋𝗌.  
   
 	𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍𝗌 𝖺𝗋𝖾 𝗈𝖿 𝗍𝗐𝗈 𝗍𝗒𝗉𝖾𝗌 :  
@@ -110,7 +110,7 @@ var BUTTONS map[string][][]gotgbot.InlineKeyboardButton = map[string][][]gotgbot
 		{{Text: "🌪 𝖥𝗂𝗅𝗍𝖾𝗋", CallbackData: "edit(MF)"},
 			{Text: "🌍 𝖦𝗅𝗈𝖻𝖺𝗅", CallbackData: "edit(GF)"},
 		}, {
-			{Text: "🖥 𝖢𝗈𝗇𝗇𝖾𝖼𝗍", CallbackData: "edit(CONNECT)"}, {Text: "⚡ 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍", CallbackData: "edit(⚡ 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍)"},
+			{Text: "🖥 𝖢𝗈𝗇𝗇𝖾𝖼𝗍", CallbackData: "edit(CONNECT)"}, {Text: "⚡ 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍", CallbackData: "edit(𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍)"},
 		},
 		{{Text: "◀️ 𝖡𝖠𝖢𝖪", CallbackData: "edit(START)"}},
 	},

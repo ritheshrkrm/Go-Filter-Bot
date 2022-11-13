@@ -22,7 +22,7 @@ func Broadcast(bot *gotgbot.Bot, ctx *ext.Context) error {
 	update := ctx.Message
 
 	if update.ReplyToMessage == nil {
-		update.Reply(bot, "Please reply this command to the message you would like to ⚡ 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 !", &gotgbot.SendMessageOpts{})
+		update.Reply(bot, "Please reply this command to the message you would like to  𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 !", &gotgbot.SendMessageOpts{})
 		return nil
 	}
 
@@ -48,7 +48,7 @@ func Broadcast(bot *gotgbot.Bot, ctx *ext.Context) error {
 		markup = &gotgbot.InlineKeyboardMarkup{InlineKeyboard: msg.ReplyMarkup.InlineKeyboard}
 	}
 
-	stat, _ := update.Reply(bot, "<code>Starting ⚡ 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 ...</code>", &gotgbot.SendMessageOpts{ParseMode: "HTML"})
+	stat, _ := update.Reply(bot, "<code>Starting  𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 ...</code>", &gotgbot.SendMessageOpts{ParseMode: "HTML"})
 
 	for cursor.Next(context.TODO()) {
 		var doc bson.M
@@ -97,7 +97,7 @@ func Broadcast(bot *gotgbot.Bot, ctx *ext.Context) error {
 		_, _, er := stat.EditText(
 			bot,
 			fmt.Sprintf(`
-<u>Live ⚡ 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 Stats :</u>
+<u>Live  𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 Stats :</u>
 
 Success : %v
 Failed  : %v
@@ -114,7 +114,7 @@ Total   : %v
 	stat.EditText(
 		bot,
 		fmt.Sprintf(`
-<b><u>⚡ 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 Completed :</u></b>
+<b><u> 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 Completed :</u></b>
 
 Success : %v
 Failed  : %v
@@ -137,7 +137,7 @@ func ConCast(bot *gotgbot.Bot, ctx *ext.Context) error {
 	update := ctx.Message
 
 	if update.ReplyToMessage == nil {
-		update.Reply(bot, "Please reply this command to the message you would like to ⚡ 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 !", &gotgbot.SendMessageOpts{})
+		update.Reply(bot, "Please reply this command to the message you would like to  𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 !", &gotgbot.SendMessageOpts{})
 		return nil
 	}
 
