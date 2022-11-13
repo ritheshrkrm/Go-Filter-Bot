@@ -96,14 +96,14 @@ var BUTTONS map[string][][]gotgbot.InlineKeyboardButton = map[string][][]gotgbot
 	},
 	"ABOUT": {
 		{
-			{Text: "🏘 ����", CallbackData: "edit(START)"},
-			{Text: "🧩 �����", CallbackData: "stats"},
+			{Text: "🏘 Home", CallbackData: "edit(START)"},
+			{Text: "🧩 Stats", CallbackData: "stats"},
 		},
 	},
 	"STATS": {
 		{
-			{Text: "◀️ ����", CallbackData: "edit(ABOUT)"},
-			{Text: "♻️ �������", CallbackData: "stats"},
+			{Text: "◀️ 𝖡𝖠𝖢𝖪", CallbackData: "edit(ABOUT)"},
+			{Text: "🧩 Stats", CallbackData: "stats"},
 		},
 	},
 	"HELP": {
