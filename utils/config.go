@@ -6,56 +6,55 @@ import "github.com/PaulSonOfLars/gotgbot/v2"
 
 var TEXT map[string]string = map[string]string{
 
-	"START": `
-<b>Hᴇʏ %v ɪᴍ %v ᴀɴ Aᴡᴇsᴏᴍᴇ Filter bot with global filter support</b>
+	"START": `𝖧𝖾𝗅𝗅𝗈 𝖳𝗁𝖾𝗋𝖾,
+𝖨'𝗆 𝗃𝗎𝗌𝗍 𝖺 𝗌𝗂𝗆𝗉𝗅𝖾 𝗆𝖺𝗇𝗎𝖺𝗅 𝖿𝗂𝗅𝗍𝖾𝗋 𝖻𝗈𝗍
 
-<i>I can save a custom reply for a word in any chat. Check my help menu for more details.</i>
+𝗂𝗍𝗌 𝖾𝖺𝗌𝗒 𝗍𝗈 𝗎𝗌𝖾 𝗆𝖾; 𝗃𝗎𝗌𝗍 𝖺𝖽𝖽 𝗆𝖾 𝗍𝗈 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉 𝖺𝗌 𝖺𝖽𝗆𝗂𝗇 𝗁𝗂𝗍 /help 𝖿𝗈𝗋 𝗆𝗈𝗋𝖾.
 	`,
-	"ABOUT": `
-	○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/rithesh_rkrm_17'>𝖳𝗁𝗂𝗌 𝖯𝖾𝗋𝗌𝗈𝗇</a>
-	○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇 𝟥 
-	○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 𝟢.𝟣𝟩.𝟣 
-	○ 𝖲𝖾𝗋𝗏𝖾𝗋 : Contabo
-	○ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 : <a href='https://www.mongodb.com'>𝖬𝗈𝗇𝗀𝗈𝖣𝖡 𝖥𝗋𝖾𝖾 𝖳𝗂𝖾𝗋</a>
-	○ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌 : v1.0.1 [BeTa]
-	○ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉 : <a href='https://t.me/raixchat'>𝖳𝖺𝗉 𝖧𝖾𝗋𝖾</a>
+	"ABOUT": `○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/rithesh_rkrm_17'>𝖳𝗁𝗂𝗌 𝖯𝖾𝗋𝗌𝗈𝗇</a>
+○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇 𝟥 
+○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 𝟢.𝟣𝟩.𝟣 
+○ 𝖲𝖾𝗋𝗏𝖾𝗋 : Contabo
+○ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 : <a href='https://www.mongodb.com'>𝖬𝗈𝗇𝗀𝗈𝖣𝖡 𝖥𝗋𝖾𝖾 𝖳𝗂𝖾𝗋</a>
+○ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌 : v1.0.1 [BeTa]
+○ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉 : <a href='https://t.me/raixchat'>𝖳𝖺𝗉 𝖧𝖾𝗋𝖾</a>
 	`,
 
 	"MF": `
-<b>Mᴀɴᴜᴀʟ ғɪʟᴛᴇʀs ᴀʟʟᴏᴡ ʏᴏᴜ ᴛᴏ sᴀᴠᴇ ᴄᴜsᴛᴏᴍ ғɪʟᴛᴇʀs ᴏᴛʜᴇʀ ᴛʜᴀɴ ᴛʜᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄ ᴏɴᴇs. 🌪 𝖥𝗂𝗅𝗍𝖾𝗋s ᴄᴀɴ ʙᴇ ᴏғ ᴛᴇxᴛ/ᴘʜᴏᴛᴏ/ᴅᴏᴄᴜᴍᴇɴᴛ/ᴀᴜᴅɪᴏ/ᴀɴɪᴍᴀᴛɪᴏɴ/ᴠɪᴅᴇᴏ .</b>
-
-<b><u>Nᴇᴡ ғɪʟᴛᴇʀ :</u></b>
-
-<u>Fᴏʀᴍᴀᴛ</u>
-<code>/filter "keyword" text</code> or
-Rᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ -><code>/filter "keyword"</code>
-<u>Usᴀɢᴇ</u>
-<code>/filter "hi" hello</code>
-[<code>hello</code>] -> Reply -> <code>/filter hi</code>
-
-<b><u>Sᴛᴏᴘ ғɪʟᴛᴇʀ :</u></b>
-
-<u>Fᴏʀᴍᴀᴛ</u>
-<code>/stop "keyword"</code>
-<u>Usᴀɢᴇ</u>
-<code>/stop "hi"</code>
-
-<b><u>Vɪᴇᴡ ғɪʟᴛᴇʀs :</u></b>
-<code>/filters</code>
+	Mᴀɴᴜᴀʟ ғɪʟᴛᴇʀs ᴀʟʟᴏᴡ ʏᴏᴜ ᴛᴏ sᴀᴠᴇ ᴄᴜsᴛᴏᴍ ғɪʟᴛᴇʀs ᴏᴛʜᴇʀ ᴛʜᴀɴ ᴛʜᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄ ᴏɴᴇs. 🌪 𝖥𝗂𝗅𝗍𝖾𝗋s ᴄᴀɴ ʙᴇ ᴏғ ᴛᴇxᴛ/ᴘʜᴏᴛᴏ/ᴅᴏᴄᴜᴍᴇɴᴛ/ᴀᴜᴅɪᴏ/ᴀɴɪᴍᴀᴛɪᴏɴ/ᴠɪᴅᴇᴏ .   
+   
+Nᴇᴡ ғɪʟᴛᴇʀ :   
+   
+Fᴏʀᴍᴀᴛ   
+/filter "keyword" text or   
+Rᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ->/filter "keyword"   
+Usᴀɢᴇ   
+/filter "hi" hello   
+[hello] -> Reply -> /filter hi   
+   
+Sᴛᴏᴘ ғɪʟᴛᴇʀ :   
+   
+Fᴏʀᴍᴀᴛ   
+/stop "keyword"   
+Usᴀɢᴇ   
+/stop "hi"   
+   
+Vɪᴇᴡ ғɪʟᴛᴇʀs :   
+/filters
 `,
 
 	"GF": `
-<b>Gʟᴏʙᴀʟ ғɪʟᴛᴇʀs ᴀʀᴇ ᴍᴀɴᴜᴀʟ ғɪʟᴛᴇʀs sᴀᴠᴇᴅ ʙʏ ʙᴏᴛ ᴀᴅᴍɪɴs ᴛʜᴀᴛ ᴡᴏʀᴋ ɪɴ ᴀʟʟ ᴄʜᴀᴛs. Tʜᴇʏ ᴘʀᴏᴠɪᴅᴇ ʟᴀᴛᴇsᴛ ᴍᴏᴠɪᴇs ɪɴ ᴀ ᴇᴀsʏ ᴛᴏ ᴜsᴇ ғᴏʀᴍᴀᴛ.</b>
-
-<b><u>Sᴛᴏᴘ ғɪʟᴛᴇʀ :</u></b>
-
-<u>Fᴏʀᴍᴀᴛ</u>
-<code>/stop "keyword"</code>
-<u>Usᴀɢᴇ</u>
-<code>/stop "et"</code>
-
-<b><u>Vɪᴇᴡ ғɪʟᴛᴇʀs :</u></b>
-/gfilters
+	Gʟᴏʙᴀʟ ғɪʟᴛᴇʀs ᴀʀᴇ ᴍᴀɴᴜᴀʟ ғɪʟᴛᴇʀs sᴀᴠᴇᴅ ʙʏ ʙᴏᴛ ᴀᴅᴍɪɴs ᴛʜᴀᴛ ᴡᴏʀᴋ ɪɴ ᴀʟʟ ᴄʜᴀᴛs. Tʜᴇʏ ᴘʀᴏᴠɪᴅᴇ ʟᴀᴛᴇsᴛ ᴍᴏᴠɪᴇs ɪɴ ᴀ ᴇᴀsʏ ᴛᴏ ᴜsᴇ ғᴏʀᴍᴀᴛ.  
+  
+	Sᴛᴏᴘ ғɪʟᴛᴇʀ :  
+	  
+	Fᴏʀᴍᴀᴛ  
+	/stop "keyword"  
+	Usᴀɢᴇ  
+	/stop "et"  
+	  
+	Vɪᴇᴡ ғɪʟᴛᴇʀs :  
+	/gfilters
 `,
 	"CONNECT": `
 	Help: <b>Connections</b>
