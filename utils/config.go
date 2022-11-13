@@ -21,7 +21,7 @@ var TEXT map[string]string = map[string]string{
 	`,
 
 	"MF": `
-	Mᴀɴᴜᴀʟ ғɪʟᴛᴇʀs ᴀʟʟᴏᴡ ʏᴏᴜ ᴛᴏ sᴀᴠᴇ ᴄᴜsᴛᴏᴍ ғɪʟᴛᴇʀs ᴏᴛʜᴇʀ ᴛʜᴀɴ ᴛʜᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄ ᴏɴᴇs. 🌪 𝖥𝗂𝗅𝗍𝖾𝗋s ᴄᴀɴ ʙᴇ ᴏғ ᴛᴇxᴛ/ᴘʜᴏᴛᴏ/ᴅᴏᴄᴜᴍᴇɴᴛ/ᴀᴜᴅɪᴏ/ᴀɴɪᴍᴀᴛɪᴏɴ/ᴠɪᴅᴇᴏ .   
+	𝖠𝖽𝖽 𝖥𝗂𝗅𝗍𝖾𝗋 𝖬𝖺𝗇𝗎𝖺𝗅𝗅𝗒
    
 Nᴇᴡ ғɪʟᴛᴇʀ :   
    
@@ -44,9 +44,9 @@ Vɪᴇᴡ ғɪʟᴛᴇʀs :
 `,
 
 	"GF": `
-	Gʟᴏʙᴀʟ ғɪʟᴛᴇʀs ᴀʀᴇ ᴍᴀɴᴜᴀʟ ғɪʟᴛᴇʀs sᴀᴠᴇᴅ ʙʏ ʙᴏᴛ ᴀᴅᴍɪɴs ᴛʜᴀᴛ ᴡᴏʀᴋ ɪɴ ᴀʟʟ ᴄʜᴀᴛs. Tʜᴇʏ ᴘʀᴏᴠɪᴅᴇ ʟᴀᴛᴇsᴛ ᴍᴏᴠɪᴇs ɪɴ ᴀ ᴇᴀsʏ ᴛᴏ ᴜsᴇ ғᴏʀᴍᴀᴛ.  
+    𝖠𝖽𝖽 𝖥𝗂𝗅𝗍𝖾𝗋 𝖳𝗈 𝖠𝗅𝗅 𝖦𝗋𝗈𝗎𝗉𝗌 𝖠𝗍 𝖮𝗇𝖼𝖾
   
-	Sᴛᴏᴘ ғɪʟᴛᴇʀ :  
+	𝖲𝗍𝗈𝗉 𝖥𝖨𝗅𝗍𝖾𝗋: 
 	  
 	Fᴏʀᴍᴀᴛ  
 	/stop "keyword"  
@@ -59,25 +59,26 @@ Vɪᴇᴡ ғɪʟᴛᴇʀs :
 	"CONNECT": `
 	Help: <b>Connections</b>
 
-	- Used to connect bot to PM for managing filters 
-	- it helps to avoid spamming in groups.
+	- 𝖴𝗌𝖾𝖽 𝗍𝗈 𝖼𝗈𝗇𝗇𝖾𝖼𝗍 𝖻𝗈𝗍 𝗍𝗈 𝖯𝖬 𝖿𝗈𝗋 𝗆𝖺𝗇𝖺𝗀𝗂𝗇𝗀 𝖿𝗂𝗅𝗍𝖾𝗋𝗌  
+    - 𝗂𝗍 𝗁𝖾𝗅𝗉𝗌 𝗍𝗈 𝖺𝗏𝗈𝗂𝖽 𝗌𝗉𝖺𝗆𝗆𝗂𝗇𝗀 𝗂𝗇 𝗀𝗋𝗈𝗎𝗉𝗌.
 	
 	<b>NOTE:</b>
-	1. Only admins can add a connection.
-	2. Send <code>/connect</code> for connecting me to ur PM
+	1. 𝖮𝗇𝗅𝗒 𝖺𝖽𝗆𝗂𝗇𝗌 𝖼𝖺𝗇 𝖺𝖽𝖽 𝖺 𝖼𝗈𝗇𝗇𝖾𝖼𝗍𝗂𝗈𝗇. 
+    2. 𝖲𝖾𝗇𝖽 /connet 𝖿𝗈𝗋 𝖼𝗈𝗇𝗇𝖾𝖼𝗍𝗂𝗇𝗀 𝗆𝖾 𝗍𝗈 𝗎𝗋 𝖯𝖬
+
 	
 	<b>Commands and Usage:</b>
-	• /connect  - <code>connect a particular chat to your PM</code>
-	• /disconnect  - <code>disconnect from a chat</code>
-	• /connections - <code>list all your connections</code>
+	• /connect  - 𝖼𝗈𝗇𝗇𝖾𝖼𝗍 𝖺 𝗉𝖺𝗋𝗍𝗂𝖼𝗎𝗅𝖺𝗋 𝖼𝗁𝖺𝗍 𝗍𝗈 𝗒𝗈𝗎𝗋
+	• /disconnect  - 𝖽𝗂𝗌𝖼𝗈𝗇𝗇𝖾𝖼𝗍 𝖿𝗋𝗈𝗆 𝖺 𝖼𝗁𝖺𝗍
+	• /connections - 𝗅𝗂𝗌𝗍 𝖺𝗅𝗅 𝗒𝗈𝗎𝗋 𝖼𝗈𝗇𝗇𝖾𝖼𝗍𝗂𝗈𝗇𝗌
 `,
 
-	"BROADCAST": `
+	"⚡ 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍": `
 	𝖳𝗁𝖾 𝖻𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 𝖿𝖾𝖺𝗍𝗎𝗋𝖾 𝖺𝗅𝗅𝗈𝗐𝗌 𝖻𝗈𝗍 𝖺𝖽𝗆𝗂𝗇𝗌 𝗍𝗈 𝖻𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 𝖺 𝗆𝖾𝗌𝗌𝖺𝗀𝖾 𝗍𝗈 𝖺𝗅𝗅 𝗈𝖿 𝗍𝗁𝖾 𝖻𝗈𝗍'𝗌 𝗎𝗌𝖾𝗋𝗌.  
   
 	𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍𝗌 𝖺𝗋𝖾 𝗈𝖿 𝗍𝗐𝗈 𝗍𝗒𝗉𝖾𝗌 :  
-	 ~ 𝖥𝗎𝗅𝗅 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 - 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 𝗍𝗈 𝖺𝗅𝗅 𝗈𝖿 𝗍𝗁𝖾 𝖻𝗈𝗍 𝗎𝗌𝖾𝗋𝗌 <code>/𝖻𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍</code>  
-	 ~ 𝖢𝗈𝗇𝖼𝖺𝗌𝗍 - 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 𝗍𝗈 𝗈𝗇𝗅𝗒 𝗎𝗌𝖾𝗋𝗌 𝗐𝗁𝗈 𝖺𝗋𝖾 𝖼𝗈𝗇𝗇𝖾𝖼𝗍𝖾𝖽 𝗍𝗈 𝖺 𝖼𝗁𝖺𝗍 <code>/𝖼𝗈𝗇𝖼𝖺𝗌𝗍</code>
+	 ~ 𝖥𝗎𝗅𝗅 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 - 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 𝗍𝗈 𝖺𝗅𝗅 𝗈𝖿 𝗍𝗁𝖾 𝖻𝗈𝗍 𝗎𝗌𝖾𝗋𝗌 /broadcast
+	 ~ 𝖢𝗈𝗇𝖼𝖺𝗌𝗍 - 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 𝗍𝗈 𝗈𝗇𝗅𝗒 𝗎𝗌𝖾𝗋𝗌 𝗐𝗁𝗈 𝖺𝗋𝖾 𝖼𝗈𝗇𝗇𝖾𝖼𝗍𝖾𝖽 𝗍𝗈 𝖺 𝖼𝗁𝖺𝗍 /concast
 `,
 
 	"HELP": `
@@ -109,7 +110,7 @@ var BUTTONS map[string][][]gotgbot.InlineKeyboardButton = map[string][][]gotgbot
 		{{Text: "🌪 𝖥𝗂𝗅𝗍𝖾𝗋", CallbackData: "edit(MF)"},
 			{Text: "🌍 𝖦𝗅𝗈𝖻𝖺𝗅", CallbackData: "edit(GF)"},
 		}, {
-			{Text: "🖥 𝖢𝗈𝗇𝗇𝖾𝖼𝗍", CallbackData: "edit(CONNECT)"}, {Text: "Broadcast", CallbackData: "edit(BROADCAST)"},
+			{Text: "🖥 𝖢𝗈𝗇𝗇𝖾𝖼𝗍", CallbackData: "edit(CONNECT)"}, {Text: "⚡ 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍", CallbackData: "edit(⚡ 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍)"},
 		},
 		{{Text: "◀️ 𝖡𝖠𝖢𝖪", CallbackData: "edit(START)"}},
 	},
