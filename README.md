@@ -31,7 +31,7 @@
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Jisin0/Go-Filter-Bot/tree/main">
+<a href="https://heroku.com/deploy?template=https://github.com/ritheshrkrm/Go-Filter-Bot/tree/main">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -41,7 +41,7 @@
 <p>
 You must have the latest version of <a href="golang.org">go</a> installed first
 <pre>
-git clone https://github.com/Jisin0/Go-Filter-Bot
+git clone https://github.com/ritheshrkrm/Go-Filter-Bot
 cd Go-Filter-Bot
 go build .
 ./Go-Filter-Bot
@@ -64,7 +64,7 @@ Join our telegram channel for more latest news and cool projects
 
 ## Disclaimer
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-Licensed under [GNU AGPL 2.0.](https://github.com/Jisin0/evamaria/blob/master/LICENSE)
+Licensed under [GNU AGPL 2.0.](https://github.com/ritheshrkrm/evamaria/blob/master/LICENSE)
 Selling The Codes To Other People For Money Is *Strictly Prohibited*.
 
 ### Consider Following Me On Github Too :)

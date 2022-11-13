@@ -12,16 +12,17 @@ var TEXT map[string]string = map[string]string{
 <i>I can save a custom reply for a word in any chat. Check my help menu for more details.</i>
 	`,
 	"ABOUT": `
-<b>Լαɳցᥙαցҽ</b> : <a href='https://go.dev'>𝗚𝗢</a>
-<b>Ƒɾα𝓶ҽɯσƙ</b> : <a href='github.com/PaulSonOfLars/gotgbot'>𝗴𝗼𝘁𝗴𝗯𝗼𝘁</a>
-<b>Sҽɾʋҽɾ</b> : <a href='heroku.com'>𝗛𝗲𝗿𝗼𝗸𝘂</a>
-<b>Ɗα𝜏αẞαടҽ</b> : <a href='mongodb.org'>𝗠𝗼𝗻𝗴𝗼𝗗𝗕</a>
-<b>Ɗҽʋҽɬσρҽɾ</b> : <a href='t.me/jisin0'>𝗝𝗶𝘀𝗶𝗻𝟬</a>
-<b>Sᥙρρσɾ𝜏</b> : <a href='t.me/jisin_hub'>𝗛𝗲𝗿𝗲</a>
+	○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/rithesh_rkrm_17'>𝖳𝗁𝗂𝗌 𝖯𝖾𝗋𝗌𝗈𝗇</a>
+	○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇 𝟥 
+	○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 𝟢.𝟣𝟩.𝟣 
+	○ 𝖲𝖾𝗋𝗏𝖾𝗋 : Contabo
+	○ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 : <a href='https://www.mongodb.com'>𝖬𝗈𝗇𝗀𝗈𝖣𝖡 𝖥𝗋𝖾𝖾 𝖳𝗂𝖾𝗋</a>
+	○ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌 : v1.0.1 [BeTa]
+	○ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉 : <a href='https://t.me/raixchat'>𝖳𝖺𝗉 𝖧𝖾𝗋𝖾</a>
 	`,
 
 	"MF": `
-<b>Mᴀɴᴜᴀʟ ғɪʟᴛᴇʀs ᴀʟʟᴏᴡ ʏᴏᴜ ᴛᴏ sᴀᴠᴇ ᴄᴜsᴛᴏᴍ ғɪʟᴛᴇʀs ᴏᴛʜᴇʀ ᴛʜᴀɴ ᴛʜᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄ ᴏɴᴇs. Fɪʟᴛᴇʀs ᴄᴀɴ ʙᴇ ᴏғ ᴛᴇxᴛ/ᴘʜᴏᴛᴏ/ᴅᴏᴄᴜᴍᴇɴᴛ/ᴀᴜᴅɪᴏ/ᴀɴɪᴍᴀᴛɪᴏɴ/ᴠɪᴅᴇᴏ .</b>
+<b>Mᴀɴᴜᴀʟ ғɪʟᴛᴇʀs ᴀʟʟᴏᴡ ʏᴏᴜ ᴛᴏ sᴀᴠᴇ ᴄᴜsᴛᴏᴍ ғɪʟᴛᴇʀs ᴏᴛʜᴇʀ ᴛʜᴀɴ ᴛʜᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄ ᴏɴᴇs. 🌪 𝖥𝗂𝗅𝗍𝖾𝗋s ᴄᴀɴ ʙᴇ ᴏғ ᴛᴇxᴛ/ᴘʜᴏᴛᴏ/ᴅᴏᴄᴜᴍᴇɴᴛ/ᴀᴜᴅɪᴏ/ᴀɴɪᴍᴀᴛɪᴏɴ/ᴠɪᴅᴇᴏ .</b>
 
 <b><u>Nᴇᴡ ғɪʟᴛᴇʀ :</u></b>
 
@@ -57,55 +58,60 @@ Rᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ -><code>/filter "keyword"</code>
 /gfilters
 `,
 	"CONNECT": `
-<b>Cᴏɴɴᴇᴄᴛɪᴏɴs ᴀʟʟᴏᴡ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ʜᴇʀᴇ ɪɴ ᴘᴍ ɪɴsᴛᴇᴀᴅ ᴏғ sᴇɴᴅɪɴɢ ᴛʜᴏsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴘᴜʙʟɪᴄʟʏ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ ⠘⁾</b>
+	Help: <b>Connections</b>
 
-<b><u>Cᴏɴɴᴇᴄᴛ :</u></b>
--> Fɪʀsᴛ ɢᴇᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ's ɪᴅ ʙʏ sᴇɴᴅɪɴɢ /id ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ
--> <code>/connect [group_id]</code>
-
-<b><u>Dɪsᴄᴏɴɴᴇᴄᴛ :</u></b>
-<code>/disconnect</code>
+	- Used to connect bot to PM for managing filters 
+	- it helps to avoid spamming in groups.
+	
+	<b>NOTE:</b>
+	1. Only admins can add a connection.
+	2. Send <code>/connect</code> for connecting me to ur PM
+	
+	<b>Commands and Usage:</b>
+	• /connect  - <code>connect a particular chat to your PM</code>
+	• /disconnect  - <code>disconnect from a chat</code>
+	• /connections - <code>list all your connections</code>
 `,
 
 	"BROADCAST": `
-<b>The broadcast feature allows bot admins to broadcast a message to all of the bot's users.</b>
-
-<I>Broadcasts are of two types :</i>
- ~ Full Broadcast - Broadcast to all of the bot users <code>/broadcast</code>
- ~ Concast - Broadcast to only users who are connected to a chat <code>/concast</code>
+	𝖳𝗁𝖾 𝖻𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 𝖿𝖾𝖺𝗍𝗎𝗋𝖾 𝖺𝗅𝗅𝗈𝗐𝗌 𝖻𝗈𝗍 𝖺𝖽𝗆𝗂𝗇𝗌 𝗍𝗈 𝖻𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 𝖺 𝗆𝖾𝗌𝗌𝖺𝗀𝖾 𝗍𝗈 𝖺𝗅𝗅 𝗈𝖿 𝗍𝗁𝖾 𝖻𝗈𝗍'𝗌 𝗎𝗌𝖾𝗋𝗌.  
+  
+	𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍𝗌 𝖺𝗋𝖾 𝗈𝖿 𝗍𝗐𝗈 𝗍𝗒𝗉𝖾𝗌 :  
+	 ~ 𝖥𝗎𝗅𝗅 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 - 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 𝗍𝗈 𝖺𝗅𝗅 𝗈𝖿 𝗍𝗁𝖾 𝖻𝗈𝗍 𝗎𝗌𝖾𝗋𝗌 <code>/𝖻𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍</code>  
+	 ~ 𝖢𝗈𝗇𝖼𝖺𝗌𝗍 - 𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍 𝗍𝗈 𝗈𝗇𝗅𝗒 𝗎𝗌𝖾𝗋𝗌 𝗐𝗁𝗈 𝖺𝗋𝖾 𝖼𝗈𝗇𝗇𝖾𝖼𝗍𝖾𝖽 𝗍𝗈 𝖺 𝖼𝗁𝖺𝗍 <code>/𝖼𝗈𝗇𝖼𝖺𝗌𝗍</code>
 `,
 
 	"HELP": `
-<b>To know how to use my modules use the buttons below to get all my commands with usage examples !</b>
+	𝖳𝗈 𝗄𝗇𝗈𝗐 𝗁𝗈𝗐 𝗍𝗈 𝗎𝗌𝖾 𝗆𝗒 𝗆𝗈𝖽𝗎𝗅𝖾𝗌 𝗎𝗌𝖾 𝗍𝗁𝖾 𝖻𝗎𝗍𝗍𝗈𝗇𝗌 𝖻𝖾𝗅𝗈𝗐 𝗍𝗈 𝗀𝖾𝗍 𝖺𝗅𝗅 𝗆𝗒 𝖼𝗈𝗆𝗆𝖺𝗇𝖽𝗌 𝗐𝗂𝗍𝗁 𝗎𝗌𝖺𝗀𝖾 𝖾𝗑𝖺𝗆𝗉𝗅𝖾𝗌 !
 `,
 }
 
 var BUTTONS map[string][][]gotgbot.InlineKeyboardButton = map[string][][]gotgbot.InlineKeyboardButton{
 	"START": {
 		{
-			{Text: "☂ Aʙᴏᴜᴛ ☂", CallbackData: "edit(ABOUT)"},
-			{Text: "🧭 Help 🧭", CallbackData: "edit(HELP)"},
-			{Text: "🫂 Sᴜᴘᴘᴏʀᴛ 🫂", Url: "t.me/Jisin0"},
+			{Text: "😊 𝖠𝖻𝗈𝗎𝗍", CallbackData: "edit(ABOUT)"},
+			{Text: "ℹ️ 𝖧𝖾𝗅𝗉", CallbackData: "edit(HELP)"},
+			{Text: "🌐 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 ", Url: "t.me/raixchat"},
 		},
 	},
 	"ABOUT": {
 		{
-			{Text: "𝙷𝙾𝙼𝙴", CallbackData: "edit(START)"},
-			{Text: "𝚂𝚃𝙰𝚃𝚂", CallbackData: "stats"},
+			{Text: "🏘 ����", CallbackData: "edit(START)"},
+			{Text: "🧩 �����", CallbackData: "stats"},
 		},
 	},
 	"STATS": {
 		{
-			{Text: "𝙱𝙰𝙲𝙺", CallbackData: "edit(ABOUT)"},
-			{Text: "𝚁𝙴𝙵𝚁𝙴𝚂𝙷", CallbackData: "stats"},
+			{Text: "◀️ ����", CallbackData: "edit(ABOUT)"},
+			{Text: "♻️ �������", CallbackData: "stats"},
 		},
 	},
 	"HELP": {
-		{{Text: "Fɪʟᴛᴇʀ", CallbackData: "edit(MF)"},
-			{Text: "Gʟᴏʙᴀʟ", CallbackData: "edit(GF)"},
+		{{Text: "🌪 𝖥𝗂𝗅𝗍𝖾𝗋", CallbackData: "edit(MF)"},
+			{Text: "🌍 𝖦𝗅𝗈𝖻𝖺𝗅", CallbackData: "edit(GF)"},
 		}, {
-			{Text: "Cᴏɴɴᴇᴄᴛ", CallbackData: "edit(CONNECT)"}, {Text: "Broadcast", CallbackData: "edit(BROADCAST)"},
+			{Text: "🖥 𝖢𝗈𝗇𝗇𝖾𝖼𝗍", CallbackData: "edit(CONNECT)"}, {Text: "Broadcast", CallbackData: "edit(BROADCAST)"},
 		},
-		{{Text: "Bᴀᴄᴋ ➔", CallbackData: "edit(START)"}},
+		{{Text: "◀️ 𝖡𝖠𝖢𝖪", CallbackData: "edit(START)"}},
 	},
 }

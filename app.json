@@ -7,9 +7,9 @@
         "Filter",
         "Mongo DB"
     ],
-    "website": "https://github.com/Jisin0",
-    "repository": "https://github.com/Jisin0/Go-Filter-Bot",
-    "success_url": "https://telegram.dog/Jisin0",
+    "website": "https://github.com/ritheshrkrm",
+    "repository": "https://github.com/ritheshrkrm/Go-Filter-Bot",
+    "success_url": "https://telegram.dog/rai_info17",
     "env": {
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
