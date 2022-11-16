@@ -79,6 +79,8 @@ You must set the Run command to :
 </p>
 </details>
 
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/ritheshrkrm/Go-Filter-Bot&branch=main&name=Go-Filter-Bot)
+
 <details><summary>Run Locally/VPS</summary>
 <p>
 You must have the latest version of <a href="golang.org">go</a> installed first
