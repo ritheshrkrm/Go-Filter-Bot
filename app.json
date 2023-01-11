@@ -1,7 +1,7 @@
 {
     "name": "Go Filter Bot",
     "description": "A Simple yet superfast Filter bot written in pure Go",
-    "logo": "https://raw.githubusercontent.com/Jisin0/Go-Filter-Bot/logo.jpg",
+    "logo": "https://raw.githubusercontent.com/ritheshrkrm/Go-Filter-Bot/logo.jpg",
     "keywords": [
         "Go",
         "Filter",

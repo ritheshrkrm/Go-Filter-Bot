@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Jisin0/Go-Filter-Bot/utils"
-	"github.com/Jisin0/Go-Filter-Bot/utils/customfilters"
+	"https://github.com/ritheshrkrm/Go-Filter-Bot/utils"
+	"https://github.com/ritheshrkrm/Go-Filter-Bot/utils/customfilters"
 	"github.com/PaulSonOfLars/gotgbot/v2"
 	"github.com/PaulSonOfLars/gotgbot/v2/ext"
 )

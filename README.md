@@ -4,7 +4,6 @@
 
 <img src="logo.jpg" alt="Logo">
 
-  <b>A Simple Yet Superfast Filter Bot Written In Go Inspired By <a href='https://github.com/TrojanzHex/Unlimited-Filter-Bot'>Unlimimted-Filter-Bot</a> with global filter support.</b>
 </p>
 
 ## Commands
@@ -66,7 +65,7 @@ Make sure to have the following options set :
 <details><summary>Deploy To Koyeb</summary>
 <p>
 <br>
-<a href="https://app.koyeb.com/deploy?type=git&repository=github.com/Jisin0/Go-Filter-Bot&branch=main">
+<a href="https://app.koyeb.com/deploy?type=git&repository=https://github.com/ritheshrkrm/Go-Filter-Bot&branch=main">
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="deploy-to-koyeb">
 </a>
 </p>
@@ -79,7 +78,7 @@ You must set the Run command to :
 <details><summary>Deploy To Okteto</summary>
 <p>
 <br>
-<a href="https://cloud.okteto.com/deploy?repository=https://github.com/Jisin0/Go-Filter-Bot">
+<a href="https://cloud.okteto.com/deploy?repository=https://https://github.com/ritheshrkrm/Go-Filter-Bot">
   <img src="https://okteto.com/develop-okteto.svg" alt="deploy-to-okteto">
 </a>
 </p>
@@ -111,15 +110,15 @@ go build .
 ## Support
 
 Ask any doubts or help in our support chat.
-[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/jisin_hub)
+[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/raixchat)
 
 Join our telegram channel for more latest news and cool projects
-[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/jisin_0)
+[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/rai_info17)
 
 ## Thanks
 
  - Thanks To Paul For His Awesome [Library](https://github.com/PaulSonOfLars/gotgbot) And Support
- - Thanks To [Trojanz](https://github.com/trojanzhex) for Their Awesome [Unlimited Filter Bot](https://github.com/TroJanzHEX/Unlimited-Filter-Bot)
+ - Thanks To Jisin0 for his Filter Bot
 
 ## Disclaimer
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    

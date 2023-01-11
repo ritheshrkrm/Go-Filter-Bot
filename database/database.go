@@ -1,4 +1,4 @@
-// (c) Jisin0
+// (c) ritheshrkrm
 
 package database
 

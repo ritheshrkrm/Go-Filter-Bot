@@ -1,11 +1,11 @@
-// (c) Jisin0
+// (c) ritheshrkrm
 
 package customfilters
 
 import (
 	"fmt"
 
-	"github.com/Jisin0/Go-Filter-Bot/database"
+	"https://github.com/ritheshrkrm/Go-Filter-Bot/database"
 	"github.com/PaulSonOfLars/gotgbot/v2"
 	"github.com/PaulSonOfLars/gotgbot/v2/ext"
 	"github.com/PaulSonOfLars/gotgbot/v2/ext/handlers/filters"

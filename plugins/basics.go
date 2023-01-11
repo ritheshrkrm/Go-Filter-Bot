@@ -1,4 +1,4 @@
-// (c) Jisin0
+// (c) ritheshrkrm
 
 package plugins
 
@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/Jisin0/Go-Filter-Bot/utils"
+	"https://github.com/ritheshrkrm/Go-Filter-Bot/utils"
 	"github.com/PaulSonOfLars/gotgbot/v2"
 	"github.com/PaulSonOfLars/gotgbot/v2/ext"
 )
